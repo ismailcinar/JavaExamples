@@ -1,0 +1,7 @@
+
+public class Car {
+	String license;
+	int year;
+	String color;
+	String brand;
+}

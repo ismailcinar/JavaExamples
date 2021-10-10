@@ -1,0 +1,21 @@
+package eriþim;
+
+public class Main {
+	public static void main(String[] args) {
+		Person person1=new Person();
+		person1.name="kazim";
+		person1.surname="karabekir";
+		person1.age=33;
+		
+		System.out.println("First objects entrys");
+		System.out.println(person1.name);
+		System.out.println(person1.surname);
+		System.out.println(person1.age);
+		
+		person1.name="ismail";
+		
+		System.out.println(person1.name);
+
+	}
+
+}

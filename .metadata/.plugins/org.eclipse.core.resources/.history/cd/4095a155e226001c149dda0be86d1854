@@ -1,0 +1,9 @@
+package eriþim;
+
+public class Person {
+	public String name;
+	String surname;
+	int age;
+	
+
+}

@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ArrayList<ArrayList<String>> grocerylist= new ArrayList();
+		
+		ArrayList<String> bakeryList=new ArrayList();
+		bakeryList.add("pasta");
+		bakeryList.add("garlic bread");
+		bakeryList.add("donut");
+		
+		ArrayList<String> produceList=new ArrayList();
+		produceList.add("tomatoes");
+		produceList.add("zucchini");
+		produceList.add("peppers");
+		
+		ArrayList<String> drinkList=new ArrayList();
+		drinkList.add("ayran");
+		drinkList.add("tea");
+		
+		grocerylist.add(bakeryList);
+		grocerylist.add(produceList);
+		grocerylist.add(drinkList);
+
+		
+		System.out.println(groceryList);
+
+	}
+
+}

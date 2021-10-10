@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Calculate c1=new Calculate();
+		Calculate c2=new Calculate();
+		int result=c1.add(1,9);
+		System.out.println(result);
+		float result2=c2.add(1.1f,9.9f);
+		System.out.println(result2);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Hesap extends Example{
+
+	@Override
+	int topla(int a,int b) {
+		return a+b;
+	}
+
+	
+
+}

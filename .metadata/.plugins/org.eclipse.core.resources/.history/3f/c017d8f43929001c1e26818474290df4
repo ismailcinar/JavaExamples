@@ -1,0 +1,6 @@
+package inheritance;
+
+public class Accountant extends Person
+{
+	int salary;
+}

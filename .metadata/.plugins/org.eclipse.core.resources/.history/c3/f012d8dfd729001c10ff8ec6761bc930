@@ -1,0 +1,10 @@
+
+public abstract class Example {
+	
+	abstract int topla();
+	int carp(int a,int b)
+	{
+		return a*b;
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Car {
+	String license;
+	int year;
+	String color;
+	String brand;
+	
+	public void moveOn() {
+		
+		System.out.println("car is moving.");
+	}
+	
+	public void stop() {
+		
+		System.out.println("car has been stopped.");
+	}
+}

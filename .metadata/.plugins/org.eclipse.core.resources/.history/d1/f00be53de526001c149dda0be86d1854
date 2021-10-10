@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p1=new Person();
+		p1.name="Kazim";
+		p1.surname="Karabekir";
+		p1.age=54;
+		
+		p1.print();
+	}
+
+}

@@ -1,0 +1,23 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Accountant a1=new Accountant();
+		Person p1=new Person();
+		a1.name="ismail";
+		a1.surname="çýnar";
+		a1.age=22;
+		a1.salary=100000;
+		
+		p1.name="kazim";
+		p1.surname="karabekir";
+		p1.age=33;
+		
+		System.out.println("Accountant's infos :");
+		a1.print();
+		
+	}
+
+}
